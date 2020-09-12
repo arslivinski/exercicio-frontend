@@ -9,10 +9,12 @@
   },
   "license": "ISC",
   "scripts": {
-    "start": "json-server --watch db.json"
+    "start": "json-server --watch db.json",
+    "format": "prettier --write \"**/*.{js,json,css,html,md}\""
   },
   "dependencies": {},
   "devDependencies": {
-    "json-server": "^0.16.1"
+    "json-server": "^0.16.1",
+    "prettier": "^2.1.1"
   }
 }

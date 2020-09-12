@@ -1,0 +1,7 @@
+build/
+ci/
+coverage/
+dist/
+node_modules/
+README.md
+!.*.js

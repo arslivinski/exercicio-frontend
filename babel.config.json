@@ -1,0 +1,28 @@
+{
+  "presets": [
+    "@babel/preset-react",
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "entry",
+        "bugfixes": true,
+        "corejs": 3
+      }
+    ]
+  ],
+  "env": {
+    "development": {
+      "presets": [
+        ["@babel/preset-react", { "development": true }],
+        [
+          "@babel/preset-env",
+          {
+            "useBuiltIns": "entry",
+            "bugfixes": true,
+            "corejs": 3
+          }
+        ]
+      ]
+    }
+  }
+}

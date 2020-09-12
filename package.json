@@ -11,8 +11,8 @@
   "scripts": {
     "start": "json-server --watch db.json"
   },
-  "dependencies": {
-    "json-server": "^0.15.1"
-  },
-  "devDependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "json-server": "^0.16.1"
+  }
 }

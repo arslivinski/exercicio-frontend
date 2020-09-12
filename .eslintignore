@@ -1,0 +1,6 @@
+build/
+ci/
+coverage/
+dist/
+node_modules/
+!.*.js

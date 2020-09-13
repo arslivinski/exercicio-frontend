@@ -1,0 +1,32 @@
+.jl-main,
+.jl-main__content,
+.jl-main__aside {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.jl-main {
+  width: 100%;
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  padding: 2rem 1rem 1rem;
+}
+
+@media all and (min-width: 960px) {
+  .jl-main {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2rem;
+  }
+
+  .jl-main__content {
+    flex-grow: 1;
+  }
+
+  .jl-main__aside {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 360px;
+  }
+}

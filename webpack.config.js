@@ -75,6 +75,7 @@ module.exports = function webpackConfigFactory(env) {
       clientLogLevel: 'none',
       host: process.env.HOST || '0.0.0.0',
       contentBase: path.resolve(__dirname, 'public'),
+      historyApiFallback: true,
     },
     watchOptions: {
       ignored: /node_modules/,

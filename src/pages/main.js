@@ -1,4 +1,5 @@
 import React from 'react';
+import { Header } from '../containers.js';
 import './main.css';
 
 /**
@@ -9,6 +10,7 @@ import './main.css';
 function Main() {
   return (
     <>
+      <Header />
       <section className="jl-main">
         <section className="jl-main__content"></section>
         <aside className="jl-main__aside"></aside>

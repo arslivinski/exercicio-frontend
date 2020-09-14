@@ -1,0 +1,29 @@
+.jl-meter {
+  margin: 1rem 0;
+}
+
+.jl-meter__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jl-meter__label {
+  font-weight: 700;
+  color: #5d7080;
+  flex-grow: 0;
+}
+
+.jl-meter__description {
+  color: #c9d0d5;
+  font-size: 0.9rem;
+}
+
+.jl-meter__bar {
+  background-color: #eaeaea;
+}
+
+.jl-meter__value {
+  background-color: #6bca8b;
+  height: 1rem;
+}

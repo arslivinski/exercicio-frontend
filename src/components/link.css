@@ -1,0 +1,11 @@
+.link,
+.link:hover,
+.link:active,
+.link:visited {
+  display: block;
+  color: #06a24e;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

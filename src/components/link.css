@@ -2,7 +2,6 @@
 .jl-link:hover,
 .jl-link:active,
 .jl-link:visited {
-  display: block;
   color: #06a24e;
   text-decoration: none;
   display: flex;

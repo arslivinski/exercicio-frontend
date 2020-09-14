@@ -1,0 +1,25 @@
+.jl-social-media-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #b1b7c0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jl-social-media-icon,
+.jl-social-media-icon:hover,
+.jl-social-media-icon:active,
+.jl-social-media-icon:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.jl-social-media-icon:hover {
+  filter: brightness(1.125);
+}
+
+.jl-social-media-icon:active {
+  filter: brightness(0.875);
+}

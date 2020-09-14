@@ -1,9 +1,10 @@
 import React from 'react';
 import { Header } from '../containers.js';
-import { Card, Link } from '../components.js';
+import { Card, Link, Meter } from '../components.js';
 import IconEmail from './main/icon-email-outline.png';
 import IconLink from './main/icon-link-variant.png';
 import IconMap from './main/icon-map-marker.png';
+import IconExternal from './main/icon-open-in-new.png';
 import './main.css';
 
 /**
@@ -49,6 +50,31 @@ function Main() {
             <Link id="location" to="https://www.website.com">
               <img src={IconLink} alt="" />
               https://www.website.com
+            </Link>
+          </Card>
+          <Card id="skills" title="Skills">
+            <p>
+              Intro about your skills goes here. Keep the list lean and only show your primary
+              skillset. You can always provide a link to your Linkedin or Coderwall profile so
+              people can get more info there.
+            </p>
+            <Meter id="python-jango" label="Python & Django" description="Expert" value={96} />
+            <Meter
+              id="javascript-jquery"
+              label="Javascript & jQuery"
+              description="Expert"
+              value={96}
+            />
+            <Meter
+              id="html5-css3-sass-less"
+              label="HTML5, CSS3, SASS & LESS"
+              description="Expert"
+              value={96}
+            />
+            <Meter id="ruby-on-rails" label="Ruby on Rails" description="Pro" value={85} />
+            <Link id="coderwall" to="https://coderwall.com">
+              <img src={IconExternal} alt="" />
+              More on Coderwall
             </Link>
           </Card>
         </aside>

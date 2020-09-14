@@ -19,7 +19,7 @@ function Link(props) {
   const to = props.to ?? '#';
 
   return (
-    <a id={`link_${id}`} className="link" href={to} target="_blank" rel="noopener noreferrer">
+    <a id={`link_${id}`} className="jl-link" href={to} target="_blank" rel="noopener noreferrer">
       {children}
     </a>
   );

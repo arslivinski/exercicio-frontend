@@ -1,7 +1,7 @@
-.link,
-.link:hover,
-.link:active,
-.link:visited {
+.jl-link,
+.jl-link:hover,
+.jl-link:active,
+.jl-link:visited {
   display: block;
   color: #06a24e;
   text-decoration: none;

@@ -1,6 +1,9 @@
 import React from 'react';
 import { Header } from '../containers.js';
-import { Card } from '../components.js';
+import { Card, Link } from '../components.js';
+import IconEmail from './main/icon-email-outline.png';
+import IconLink from './main/icon-link-variant.png';
+import IconMap from './main/icon-map-marker.png';
 import './main.css';
 
 /**
@@ -33,7 +36,22 @@ function Main() {
             </p>
           </Card>
         </section>
-        <aside className="jl-main__aside"></aside>
+        <aside className="jl-main__aside">
+          <Card id="info">
+            <Link id="location" to="https://www.google.com/maps/place/San+Francisco,+CA,+EUA">
+              <img src={IconMap} alt="" />
+              San Franciso, US
+            </Link>
+            <Link id="location" to="mailto:jameslee@website.com">
+              <img src={IconEmail} alt="" />
+              jameslee@website.com
+            </Link>
+            <Link id="location" to="https://www.website.com">
+              <img src={IconLink} alt="" />
+              https://www.website.com
+            </Link>
+          </Card>
+        </aside>
       </section>
     </>
   );

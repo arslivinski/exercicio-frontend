@@ -1,6 +1,7 @@
 import React from 'react';
 import { Header } from '../containers.js';
 import { Card, Link, Meter } from '../components.js';
+import { Projects } from './main/projects.js';
 import IconEmail from './main/icon-email-outline.png';
 import IconLink from './main/icon-link-variant.png';
 import IconMap from './main/icon-map-marker.png';
@@ -36,6 +37,7 @@ function Main() {
               dictum mattis orci sed convallis.
             </p>
           </Card>
+          <Projects />
         </section>
         <aside className="jl-main__aside">
           <Card id="info">

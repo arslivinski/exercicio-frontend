@@ -1,0 +1,12 @@
+.jl-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.jl-projects__separator {
+  height: 1px;
+  margin: 2rem 0;
+  border: 0;
+  border-top: 1px #f0f0f0 solid;
+}

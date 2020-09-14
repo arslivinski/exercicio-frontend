@@ -1,0 +1,25 @@
+.jl-project-featured__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jl-projectt-featured__image {
+  width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+}
+
+.jl-project-featured__title {
+  font-size: 1.25rem;
+}
+
+.jl-project-featured__subtitle {
+  color: #555f6b;
+}
+
+.jl-project-featured__footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}

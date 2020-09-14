@@ -1,0 +1,37 @@
+.jl-button {
+  color: #000000;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+  font-weight: 700;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.jl-button,
+.jl-button:hover,
+.jl-button:active,
+.jl-button:visited {
+  text-decoration: none;
+}
+
+.jl-button:hover {
+  filter: brightness(1.125);
+}
+
+.jl-button:active {
+  filter: brightness(0.875);
+}
+
+.jl-button--blue {
+  background-color: #4b9fc6;
+  color: #ffffff;
+}
+
+.jl-button--green {
+  background-color: #57b952;
+  color: #ffffff;
+}

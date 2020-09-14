@@ -1,0 +1,9 @@
+.jl-card {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.jl-card__title {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}

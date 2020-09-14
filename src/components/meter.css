@@ -1,5 +1,8 @@
 .jl-meter {
   margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .jl-meter__header {
@@ -9,7 +12,8 @@
 }
 
 .jl-meter__label {
-  font-weight: 700;
+  font-weight: 550;
+  font-size: 0.95rem;
   color: #5d7080;
   flex-grow: 0;
 }

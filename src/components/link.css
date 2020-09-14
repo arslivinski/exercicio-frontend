@@ -9,3 +9,7 @@
   align-items: center;
   gap: 0.5rem;
 }
+
+.jl-link + .jl-link {
+  margin-top: 1rem;
+}

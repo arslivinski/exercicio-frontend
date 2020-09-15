@@ -1,11 +1,7 @@
 import React from 'react';
 import { Header } from '../containers.js';
-import { Card, Link, Meter } from '../components.js';
+import { Card, Icon, Link, Meter } from '../components.js';
 import { Projects } from './main/projects.js';
-import IconEmail from './main/icon-email-outline.png';
-import IconLink from './main/icon-link-variant.png';
-import IconMap from './main/icon-map-marker.png';
-import IconExternal from './main/icon-open-in-new.png';
 import './main.css';
 
 /**
@@ -42,15 +38,15 @@ function Main() {
         <aside className="jl-main__aside">
           <Card id="info">
             <Link id="location" to="https://www.google.com/maps/place/San+Francisco,+CA,+EUA">
-              <img src={IconMap} alt="" />
+              <Icon name="map-marker" color="gray" size="small" />
               San Franciso, US
             </Link>
             <Link id="location" to="mailto:jameslee@website.com">
-              <img src={IconEmail} alt="" />
+              <Icon name="email-outline" color="gray" size="small" />
               jameslee@website.com
             </Link>
             <Link id="location" to="https://www.website.com">
-              <img src={IconLink} alt="" />
+              <Icon name="link-variant" color="gray" size="small" />
               https://www.website.com
             </Link>
           </Card>
@@ -75,7 +71,7 @@ function Main() {
             />
             <Meter id="ruby-on-rails" label="Ruby on Rails" description="Pro" value={85} />
             <Link id="coderwall" to="https://coderwall.com">
-              <img src={IconExternal} alt="" />
+              <Icon name="open-in-new" size="small" color="green" />
               More on Coderwall
             </Link>
           </Card>

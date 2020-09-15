@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from '../../components.js';
-import IconExternal from './icon-open-in-new.png';
+import { Icon, Link } from '../../components.js';
 import './project.css';
 
 /**
@@ -28,7 +27,7 @@ function Project(props) {
         </header>
         <p>{project.description}</p>
         <Link id={`project_${project.id}`} to={project.url}>
-          <img src={IconExternal} alt="" />
+          <Icon name="open-in-new" size="small" color="green" />
           Find out more
         </Link>
       </section>

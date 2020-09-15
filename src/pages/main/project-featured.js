@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Button, Paragraph } from '../../components.js';
-import IconThumbsUp from './icon-thumb-up-outline.png';
+import { Button, Icon, Paragraph } from '../../components.js';
 import './project-featured.css';
 
 /**
@@ -30,8 +29,8 @@ function ProjectFeatured(props) {
       />
       <Paragraph>{project.description}</Paragraph>
       <footer className="jl-project-featured__footer">
-        <Button id="find-out-more" link={project.url} color={Button.Color.BLUE}>
-          <img src={IconThumbsUp} alt="" /> Back my project
+        <Button id="find-out-more" link={project.url} color="blue">
+          <Icon name="thumb-up-outline" color="white" /> Back my project
         </Button>
       </footer>
     </article>

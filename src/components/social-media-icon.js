@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Icon } from './icon.js';
 import './social-media-icon.css';
 
 /**
@@ -28,7 +29,7 @@ function SocialMediaIcon(props) {
       rel="noopener noreferrer"
       title={label}
     >
-      <img src={icon} alt={`${label} logo`} />
+      <Icon name={icon} size="medium" color="white" alt={`${label} logo`} />
     </a>
   );
 }
